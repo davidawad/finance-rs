@@ -1,0 +1,21 @@
+{
+  "references": {
+    "yc_safe": "https://www.ycombinator.com/safe",
+    "nvca_model_documents": "https://nvca.org/model-legal-documents/"
+  },
+  "cases": [
+    {
+      "name": "yc_post_money_cap_ownership",
+      "source_value": "500000 / 6700000",
+      "expected_ownership": 0.07462686567164178,
+      "expected_conversion_price": 0.67
+    },
+    {
+      "name": "nvca_pre_money_pool_round",
+      "source_value": "8m pre-money, 2m investment, existing 90/10 founder/pool",
+      "expected_founder_ownership": 0.72,
+      "expected_investor_ownership": 0.2,
+      "expected_pool_ownership": 0.08
+    }
+  ]
+}

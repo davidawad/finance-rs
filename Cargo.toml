@@ -1,0 +1,58 @@
+[package]
+name = "finance-rs"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.82"
+license = "GPL-3.0-or-later"
+description = "Financial math: numpy-financial TVM, pyxirr XIRR/XNPV and day counts, quantstats/empyrical performance metrics, amortization, real estate, corporate, venture, fund and fixed-income formulas"
+readme = "README.md"
+build = "build.rs"
+keywords = ["finance", "irr", "xirr", "npv", "sharpe"]
+categories = ["finance", "mathematics"]
+# Standalone by design (dot-5ypvlj): no inherited package keys or path
+# dependencies. The workspace clippy table is inherited in-tree for the repo's
+# lint gate; the `finance-rs-extract` binary materializes it as a local table
+# for publishing.
+
+[features]
+default = []
+actuarial = []
+chrono = ["dep:chrono"]
+decimal = ["dep:rust_decimal"]
+serde = ["dep:serde", "rust_decimal?/serde", "chrono?/serde"]
+calendars = []
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["std"], optional = true }
+rust_decimal = { version = "1", default-features = false, features = ["std", "maths"], optional = true }
+serde = { version = "1", default-features = false, features = ["std", "derive"], optional = true }
+rand = { version = "0.8", default-features = false, features = ["std", "std_rng"] }
+rand_chacha = "0.3"
+rand_distr = "0.4"
+
+[dev-dependencies]
+criterion = { version = "0.5", default-features = false }
+insta = { version = "1.42", features = ["json"] }
+rstest = "0.25"
+proptest = "1"
+serde_json = "1"
+tempfile = "3"
+kani = { package = "kani-verifier", version = "0.67" }
+
+[[bench]]
+name = "irr"
+harness = false
+
+[package.metadata.docs.rs]
+all-features = true
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+unwrap_used = "deny"
+expect_used = "warn"
+panic = "deny"
+struct_excessive_bools = "warn"
+fn_params_excessive_bools = "warn"
+too_many_lines = "warn"
+too_many_arguments = "warn"
+type_complexity = "warn"

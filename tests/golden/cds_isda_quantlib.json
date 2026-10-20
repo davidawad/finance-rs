@@ -1,0 +1,165 @@
+{
+  "provenance": {
+    "generator": "transient QuantLib 1.44 IsdaCdsEngine run; numeric outputs only",
+    "quantlib_version": "1.44",
+    "engine": "IsdaCdsEngine",
+    "numerical_fix": "Taylor",
+    "accrual_bias": "HalfDayBias",
+    "forwards_in_coupon_period": "Piecewise",
+    "schedule": "CDS2015 IMM dates; quarterly; Following payments, Unadjusted generation",
+    "coupon_convention": "100 bp / 500 bp standard coupons",
+    "recovery_cases": "40% / 25%",
+    "discount_curve": "flat continuously compounded 3% ACT/365",
+    "tolerances": {
+      "price_and_rpv01": "1e-8 relative",
+      "hazard": "1e-8 relative"
+    },
+    "clean_price_definition": "defaultLegNPV + couponLegNPV",
+    "dirty_price_definition": "NPV, including discounted accrual rebate",
+    "accrued_definition": "discounted accrualRebateNPV",
+    "rpv01_definition": "-couponLegNPV / running coupon",
+    "par_spread_definition": "IsdaCdsEngine fairSpread"
+  },
+  "cases": [
+    {
+      "name": "flat_ig_5y",
+      "valuation_date": "2024-03-20",
+      "maturity": "2029-03-20",
+      "coupon": 0.01,
+      "recovery": 0.4,
+      "notional": 1.0,
+      "discount_rate": 0.03,
+      "hazard_rates": [
+        0.02
+      ],
+      "upfront": 0.008435117727936746,
+      "clean_price": 0.008403885588795512,
+      "dirty_price": 0.00843165195339347,
+      "accrued": 2.7766364597961446e-05,
+      "rpv01": 4.47095291297272,
+      "protection_leg": 0.05311341471852271,
+      "hazard_rate": 0.02,
+      "hazard_nodes": [
+        {
+          "maturity": "2029-03-20",
+          "hazard_rate": 0.02
+        }
+      ],
+      "survival_probabilities": [
+        0.9047878392617994
+      ],
+      "par_spread": 0.011887045503937403
+    },
+    {
+      "name": "flat_hy_5y",
+      "valuation_date": "2024-03-20",
+      "maturity": "2029-03-20",
+      "coupon": 0.05,
+      "recovery": 0.25,
+      "notional": 1.0,
+      "discount_rate": 0.03,
+      "hazard_rates": [
+        0.06
+      ],
+      "upfront": -0.022085858204665566,
+      "clean_price": -0.02221561551232562,
+      "dirty_price": -0.02207678368933561,
+      "accrued": 0.0001388318229900154,
+      "rpv01": 4.069602834006186,
+      "protection_leg": 0.1812645261879837,
+      "hazard_rate": 0.06,
+      "hazard_nodes": [
+        {
+          "maturity": "2029-03-20",
+          "hazard_rate": 0.06
+        }
+      ],
+      "survival_probabilities": [
+        0.7406964523527015
+      ],
+      "par_spread": 0.044571495653624185
+    },
+    {
+      "name": "term_ig_front_loaded",
+      "valuation_date": "2024-03-20",
+      "maturity": "2029-03-20",
+      "coupon": 0.01,
+      "recovery": 0.4,
+      "notional": 1.0,
+      "discount_rate": 0.03,
+      "hazard_rates": [
+        0.04,
+        0.02,
+        0.015
+      ],
+      "hazard_nodes": [
+        {
+          "maturity": "2025-03-20",
+          "hazard_rate": 0.04
+        },
+        {
+          "maturity": "2027-03-20",
+          "hazard_rate": 0.02
+        },
+        {
+          "maturity": "2029-03-20",
+          "hazard_rate": 0.015
+        }
+      ],
+      "survival_probabilities": [
+        0.9607894391523232,
+        0.9231163463866358,
+        0.8957973209515421
+      ],
+      "upfront": 0.015046853176495381,
+      "clean_price": 0.015012904444042283,
+      "dirty_price": 0.01504067080864024,
+      "accrued": 2.7766364597954507e-05,
+      "rpv01": 4.400297531429285,
+      "protection_leg": 0.05901587975833513,
+      "par_spread": 0.013420261362679573,
+      "hazard_rate": 0.015
+    },
+    {
+      "name": "term_hy_back_loaded",
+      "valuation_date": "2024-03-20",
+      "maturity": "2029-03-20",
+      "coupon": 0.01,
+      "recovery": 0.4,
+      "notional": 1.0,
+      "discount_rate": 0.03,
+      "hazard_rates": [
+        0.015,
+        0.03,
+        0.08
+      ],
+      "hazard_nodes": [
+        {
+          "maturity": "2025-03-20",
+          "hazard_rate": 0.015
+        },
+        {
+          "maturity": "2027-03-20",
+          "hazard_rate": 0.03
+        },
+        {
+          "maturity": "2029-03-20",
+          "hazard_rate": 0.08
+        }
+      ],
+      "survival_probabilities": [
+        0.9851119396030626,
+        0.9277434863285529,
+        0.790397592813819
+      ],
+      "upfront": 0.07096728853105377,
+      "clean_price": 0.07091036351924669,
+      "dirty_price": 0.07093812988384465,
+      "accrued": 2.7766364597961446e-05,
+      "rpv01": 4.347680985989869,
+      "protection_leg": 0.11438717337914538,
+      "par_spread": 0.026326741437131304,
+      "hazard_rate": 0.08
+    }
+  ]
+}

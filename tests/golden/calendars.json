@@ -1,0 +1,160 @@
+{
+ "cases": [
+  {
+   "args": {
+    "calendar": "UnitedStatesSettlement",
+    "date": "2024-07-04"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "Nyse",
+    "date": "2024-07-04"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "GovernmentBond",
+    "date": "2024-02-19"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "FederalReserve",
+    "date": "2024-02-19"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "Target",
+    "date": "2024-12-25"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "UnitedKingdomExchange",
+    "date": "2024-12-25"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "Japan",
+    "date": "2024-01-01"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "calendar": "Canada",
+    "date": "2024-07-01"
+   },
+   "expected": true,
+   "fn": "holiday"
+  },
+  {
+   "args": {
+    "effective": "2024-01-15",
+    "eom": false,
+    "frequency": "Quarterly",
+    "rule": "Backward",
+    "termination": "2025-01-15"
+   },
+   "expected": [
+    "2024-01-15",
+    "2024-04-15",
+    "2024-07-15",
+    "2024-10-15",
+    "2025-01-15"
+   ],
+   "fn": "schedule"
+  },
+  {
+   "args": {
+    "effective": "2024-01-31",
+    "eom": true,
+    "frequency": "Monthly",
+    "rule": "Forward",
+    "termination": "2025-01-31"
+   },
+   "expected": [
+    "2024-01-31",
+    "2024-02-29",
+    "2024-03-28",
+    "2024-04-30",
+    "2024-05-31",
+    "2024-06-28",
+    "2024-07-31",
+    "2024-08-30",
+    "2024-09-30",
+    "2024-10-31",
+    "2024-11-29",
+    "2024-12-31",
+    "2025-01-31"
+   ],
+   "fn": "schedule"
+  },
+  {
+   "args": {
+    "effective": "2024-01-15",
+    "eom": false,
+    "frequency": "Quarterly",
+    "rule": "Backward",
+    "termination": "2024-11-30"
+   },
+   "expected": [
+    "2024-01-15",
+    "2024-02-29",
+    "2024-05-30",
+    "2024-08-30",
+    "2024-11-29"
+   ],
+   "fn": "schedule"
+  },
+  {
+   "args": {
+    "end": "2024-01-30",
+    "frequency": 2,
+    "ref_end": "2024-07-01",
+    "ref_start": "2024-01-01",
+    "start": "2024-01-15"
+   },
+   "expected": 0.04120879120879121,
+   "fn": "icma"
+  },
+  {
+   "args": {
+    "end": "2024-01-01",
+    "start": "2023-01-01"
+   },
+   "expected": 1.0,
+   "fn": "afb"
+  }
+ ],
+ "generator": "tests/golden/gen/generate.py",
+ "reference": {
+  "QuantLib": "1.44"
+ },
+ "tolerance": {
+  "afb": {
+   "atol": 1e-14,
+   "rtol": 0.0
+  },
+  "icma": {
+   "atol": 1e-14,
+   "rtol": 0.0
+  }
+ }
+}

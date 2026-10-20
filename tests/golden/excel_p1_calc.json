@@ -1,0 +1,472 @@
+[
+  {
+    "function": "ISPMT",
+    "basis": 0,
+    "value": -533.333333333333
+  },
+  {
+    "function": "ISPMT",
+    "basis": 1,
+    "value": -533.333333333333
+  },
+  {
+    "function": "ISPMT",
+    "basis": 2,
+    "value": -533.333333333333
+  },
+  {
+    "function": "ISPMT",
+    "basis": 3,
+    "value": -533.333333333333
+  },
+  {
+    "function": "ISPMT",
+    "basis": 4,
+    "value": -533.333333333333
+  },
+  {
+    "function": "DOLLARDE",
+    "basis": 0,
+    "value": 1.125
+  },
+  {
+    "function": "DOLLARDE",
+    "basis": 1,
+    "value": 1.125
+  },
+  {
+    "function": "DOLLARDE",
+    "basis": 2,
+    "value": 1.125
+  },
+  {
+    "function": "DOLLARDE",
+    "basis": 3,
+    "value": 1.125
+  },
+  {
+    "function": "DOLLARDE",
+    "basis": 4,
+    "value": 1.125
+  },
+  {
+    "function": "DOLLARFR",
+    "basis": 0,
+    "value": 1.02
+  },
+  {
+    "function": "DOLLARFR",
+    "basis": 1,
+    "value": 1.02
+  },
+  {
+    "function": "DOLLARFR",
+    "basis": 2,
+    "value": 1.02
+  },
+  {
+    "function": "DOLLARFR",
+    "basis": 3,
+    "value": 1.02
+  },
+  {
+    "function": "DOLLARFR",
+    "basis": 4,
+    "value": 1.02
+  },
+  {
+    "function": "PDURATION",
+    "basis": 0,
+    "value": 7.27254089734171
+  },
+  {
+    "function": "PDURATION",
+    "basis": 1,
+    "value": 7.27254089734171
+  },
+  {
+    "function": "PDURATION",
+    "basis": 2,
+    "value": 7.27254089734171
+  },
+  {
+    "function": "PDURATION",
+    "basis": 3,
+    "value": 7.27254089734171
+  },
+  {
+    "function": "PDURATION",
+    "basis": 4,
+    "value": 7.27254089734171
+  },
+  {
+    "function": "RRI",
+    "basis": 0,
+    "value": 0.189207115002721
+  },
+  {
+    "function": "RRI",
+    "basis": 1,
+    "value": 0.189207115002721
+  },
+  {
+    "function": "RRI",
+    "basis": 2,
+    "value": 0.189207115002721
+  },
+  {
+    "function": "RRI",
+    "basis": 3,
+    "value": 0.189207115002721
+  },
+  {
+    "function": "RRI",
+    "basis": 4,
+    "value": 0.189207115002721
+  },
+  {
+    "function": "DISC",
+    "basis": 0,
+    "value": 0.1
+  },
+  {
+    "function": "DISC",
+    "basis": 1,
+    "value": 0.100549450549451
+  },
+  {
+    "function": "DISC",
+    "basis": 2,
+    "value": 0.098901098901099
+  },
+  {
+    "function": "DISC",
+    "basis": 3,
+    "value": 0.100274725274725
+  },
+  {
+    "function": "DISC",
+    "basis": 4,
+    "value": 0.1
+  },
+  {
+    "function": "INTRATE",
+    "basis": 0,
+    "value": 0.105263157894737
+  },
+  {
+    "function": "INTRATE",
+    "basis": 1,
+    "value": 0.105841526894158
+  },
+  {
+    "function": "INTRATE",
+    "basis": 2,
+    "value": 0.104106419895893
+  },
+  {
+    "function": "INTRATE",
+    "basis": 3,
+    "value": 0.105552342394448
+  },
+  {
+    "function": "INTRATE",
+    "basis": 4,
+    "value": 0.105263157894737
+  },
+  {
+    "function": "RECEIVED",
+    "basis": 0,
+    "value": 97.4358974358975
+  },
+  {
+    "function": "RECEIVED",
+    "basis": 1,
+    "value": 97.4222471280471
+  },
+  {
+    "function": "RECEIVED",
+    "basis": 2,
+    "value": 97.463664861784
+  },
+  {
+    "function": "RECEIVED",
+    "basis": 3,
+    "value": 97.4290531048047
+  },
+  {
+    "function": "RECEIVED",
+    "basis": 4,
+    "value": 97.4358974358975
+  },
+  {
+    "function": "PRICEDISC",
+    "basis": 0,
+    "value": 97.5
+  },
+  {
+    "function": "PRICEDISC",
+    "basis": 1,
+    "value": 97.5136612021858
+  },
+  {
+    "function": "PRICEDISC",
+    "basis": 2,
+    "value": 97.4722222222222
+  },
+  {
+    "function": "PRICEDISC",
+    "basis": 3,
+    "value": 97.5068493150685
+  },
+  {
+    "function": "PRICEDISC",
+    "basis": 4,
+    "value": 97.5
+  },
+  {
+    "function": "PRICEMAT",
+    "basis": 0,
+    "value": 100.441176470588
+  },
+  {
+    "function": "PRICEMAT",
+    "basis": 1,
+    "value": 100.431659513003
+  },
+  {
+    "function": "PRICEMAT",
+    "basis": 2,
+    "value": 100.444880079382
+  },
+  {
+    "function": "PRICEMAT",
+    "basis": 3,
+    "value": 100.439589585685
+  },
+  {
+    "function": "PRICEMAT",
+    "basis": 4,
+    "value": 100.441176470588
+  },
+  {
+    "function": "YIELDDISC",
+    "basis": 0,
+    "value": 0.105263157894737
+  },
+  {
+    "function": "YIELDDISC",
+    "basis": 1,
+    "value": 0.105841526894158
+  },
+  {
+    "function": "YIELDDISC",
+    "basis": 2,
+    "value": 0.104106419895893
+  },
+  {
+    "function": "YIELDDISC",
+    "basis": 3,
+    "value": 0.105552342394448
+  },
+  {
+    "function": "YIELDDISC",
+    "basis": 4,
+    "value": 0.105263157894737
+  },
+  {
+    "function": "YIELDMAT",
+    "basis": 0,
+    "value": 0.131979695431472
+  },
+  {
+    "function": "YIELDMAT",
+    "basis": 1,
+    "value": 0.13225775892628
+  },
+  {
+    "function": "YIELDMAT",
+    "basis": 2,
+    "value": 0.131013293358277
+  },
+  {
+    "function": "YIELDMAT",
+    "basis": 3,
+    "value": 0.132175249666907
+  },
+  {
+    "function": "YIELDMAT",
+    "basis": 4,
+    "value": 0.131979695431472
+  },
+  {
+    "function": "ACCRINTM",
+    "basis": 0,
+    "value": 2.5
+  },
+  {
+    "function": "ACCRINTM",
+    "basis": 1,
+    "value": 2.52054794520548
+  },
+  {
+    "function": "ACCRINTM",
+    "basis": 2,
+    "value": 2.55555555555556
+  },
+  {
+    "function": "ACCRINTM",
+    "basis": 3,
+    "value": 2.52054794520548
+  },
+  {
+    "function": "ACCRINTM",
+    "basis": 4,
+    "value": 2.5
+  },
+  {
+    "function": "DURATION",
+    "basis": 0,
+    "value": 4.49890364452623
+  },
+  {
+    "function": "DURATION",
+    "basis": 4,
+    "value": 4.49890364452623
+  },
+  {
+    "function": "MDURATION",
+    "basis": 0,
+    "value": 4.41068984757474
+  },
+  {
+    "function": "MDURATION",
+    "basis": 4,
+    "value": 4.41068984757474
+  },
+  {
+    "function": "DB",
+    "basis": 0,
+    "value": 3870.0
+  },
+  {
+    "function": "DB",
+    "basis": 1,
+    "value": 3870.0
+  },
+  {
+    "function": "DB",
+    "basis": 2,
+    "value": 3870.0
+  },
+  {
+    "function": "DB",
+    "basis": 3,
+    "value": 3870.0
+  },
+  {
+    "function": "DB",
+    "basis": 4,
+    "value": 3870.0
+  },
+  {
+    "function": "DDB",
+    "basis": 0,
+    "value": 480.0
+  },
+  {
+    "function": "DDB",
+    "basis": 1,
+    "value": 480.0
+  },
+  {
+    "function": "DDB",
+    "basis": 2,
+    "value": 480.0
+  },
+  {
+    "function": "DDB",
+    "basis": 3,
+    "value": 480.0
+  },
+  {
+    "function": "DDB",
+    "basis": 4,
+    "value": 480.0
+  },
+  {
+    "function": "SLN",
+    "basis": 0,
+    "value": 2250.0
+  },
+  {
+    "function": "SLN",
+    "basis": 1,
+    "value": 2250.0
+  },
+  {
+    "function": "SLN",
+    "basis": 2,
+    "value": 2250.0
+  },
+  {
+    "function": "SLN",
+    "basis": 3,
+    "value": 2250.0
+  },
+  {
+    "function": "SLN",
+    "basis": 4,
+    "value": 2250.0
+  },
+  {
+    "function": "SYD",
+    "basis": 0,
+    "value": 4090.90909090909
+  },
+  {
+    "function": "SYD",
+    "basis": 1,
+    "value": 4090.90909090909
+  },
+  {
+    "function": "SYD",
+    "basis": 2,
+    "value": 4090.90909090909
+  },
+  {
+    "function": "SYD",
+    "basis": 3,
+    "value": 4090.90909090909
+  },
+  {
+    "function": "SYD",
+    "basis": 4,
+    "value": 4090.90909090909
+  },
+  {
+    "function": "VDB",
+    "basis": 0,
+    "value": 480.0
+  },
+  {
+    "function": "VDB",
+    "basis": 1,
+    "value": 480.0
+  },
+  {
+    "function": "VDB",
+    "basis": 2,
+    "value": 480.0
+  },
+  {
+    "function": "VDB",
+    "basis": 3,
+    "value": 480.0
+  },
+  {
+    "function": "VDB",
+    "basis": 4,
+    "value": 480.0
+  }
+]

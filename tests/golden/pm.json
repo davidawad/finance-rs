@@ -1,0 +1,509 @@
+{
+ "cases": [
+  {
+   "args": {
+    "net_odds": 2.0,
+    "probability": 0.6
+   },
+   "expected": 0.39999999999999997,
+   "fn": "binary_raw"
+  },
+  {
+   "args": {
+    "net_odds": 2.0,
+    "probability": 0.6
+   },
+   "expected": 0.39999999999999997,
+   "fn": "binary"
+  },
+  {
+   "args": {
+    "net_odds": 3.0,
+    "probability": 0.4
+   },
+   "expected": 0.20000000000000007,
+   "fn": "binary_raw"
+  },
+  {
+   "args": {
+    "net_odds": 3.0,
+    "probability": 0.4
+   },
+   "expected": 0.20000000000000007,
+   "fn": "binary"
+  },
+  {
+   "args": {
+    "net_odds": 1.0,
+    "probability": 0.5
+   },
+   "expected": 0.0,
+   "fn": "binary_raw"
+  },
+  {
+   "args": {
+    "net_odds": 1.0,
+    "probability": 0.5
+   },
+   "expected": 0,
+   "fn": "binary"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.55,
+     0.5
+    ]
+   },
+   "expected": [
+    0.5238095238095238,
+    0.47619047619047616
+   ],
+   "fn": "multiplicative"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.55,
+     0.5
+    ]
+   },
+   "expected": [
+    0.525,
+    0.475
+   ],
+   "fn": "additive"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.55,
+     0.5
+    ]
+   },
+   "expected": [
+    0.5256127309127395,
+    0.4743872690872606
+   ],
+   "fn": "power"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.55,
+     0.5
+    ]
+   },
+   "expected": [
+    0.525,
+    0.475
+   ],
+   "fn": "shin"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.4,
+     0.35,
+     0.3
+    ]
+   },
+   "expected": [
+    0.38095238095238093,
+    0.3333333333333333,
+    0.2857142857142857
+   ],
+   "fn": "multiplicative"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.4,
+     0.35,
+     0.3
+    ]
+   },
+   "expected": [
+    0.38333333333333336,
+    0.3333333333333333,
+    0.2833333333333333
+   ],
+   "fn": "additive"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.4,
+     0.35,
+     0.3
+    ]
+   },
+   "expected": [
+    0.3832120541331786,
+    0.33322194428956525,
+    0.2835660015772563
+   ],
+   "fn": "power"
+  },
+  {
+   "args": {
+    "probabilities": [
+     0.4,
+     0.35,
+     0.3
+    ]
+   },
+   "expected": [
+    0.38271721792412056,
+    0.3333300379307501,
+    0.28395274414512955
+   ],
+   "fn": "shin"
+  },
+  {
+   "args": {
+    "decimal_odds": 1.5
+   },
+   "expected": 0.6666666666666666,
+   "fn": "decimal_to_prob"
+  },
+  {
+   "args": {
+    "decimal_odds": 2.0
+   },
+   "expected": 0.5,
+   "fn": "decimal_to_prob"
+  },
+  {
+   "args": {
+    "decimal_odds": 4.0
+   },
+   "expected": 0.25,
+   "fn": "decimal_to_prob"
+  },
+  {
+   "args": {
+    "american_odds": 100.0
+   },
+   "expected": 0.5,
+   "fn": "american_to_prob"
+  },
+  {
+   "args": {
+    "american_odds": -110.0
+   },
+   "expected": 0.5238095238095238,
+   "fn": "american_to_prob"
+  },
+  {
+   "args": {
+    "american_odds": 250.0
+   },
+   "expected": 0.2857142857142857,
+   "fn": "american_to_prob"
+  },
+  {
+   "args": {
+    "denominator": 1.0,
+    "numerator": 2.0
+   },
+   "expected": 0.3333333333333333,
+   "fn": "fractional_to_prob"
+  },
+  {
+   "args": {
+    "denominator": 3.0,
+    "numerator": 1.0
+   },
+   "expected": 0.75,
+   "fn": "fractional_to_prob"
+  },
+  {
+   "args": {
+    "fraction": 0.5,
+    "full_fraction": 0.39999999999999997
+   },
+   "expected": 0.19999999999999998,
+   "fn": "fractional"
+  },
+  {
+   "args": {
+    "fraction": 0.5,
+    "full_fraction": 0.20000000000000007
+   },
+   "expected": 0.10000000000000003,
+   "fn": "fractional"
+  },
+  {
+   "args": {
+    "cap": 0.25,
+    "fraction": 0.4
+   },
+   "expected": 0.25,
+   "fn": "capped"
+  },
+  {
+   "args": {
+    "mu": 0.12,
+    "risk_free": 0.02,
+    "sigma": 0.2
+   },
+   "expected": 2.5,
+   "fn": "continuous"
+  },
+  {
+   "args": {
+    "ask": 0.4,
+    "rate": 0.07
+   },
+   "expected": 0.0168,
+   "fn": "fee"
+  },
+  {
+   "args": {
+    "contracts": 10.0,
+    "price": 0.4,
+    "rate": 0.07
+   },
+   "expected": 0.17,
+   "fn": "kalshi"
+  },
+  {
+   "args": {
+    "contracts": 10.0,
+    "price": 0.4,
+    "rate": 0.02
+   },
+   "expected": 0.048,
+   "fn": "polymarket"
+  },
+  {
+   "args": {
+    "side": "no",
+    "yes_price": 0.63
+   },
+   "expected": 0.37,
+   "fn": "held_side_price"
+  },
+  {
+   "args": {
+    "payout": 1.0,
+    "price": 0.4
+   },
+   "expected": 0.4,
+   "fn": "implied_probability"
+  },
+  {
+   "args": {
+    "values": [
+     0.55,
+     0.5
+    ]
+   },
+   "expected": 0.05,
+   "fn": "overround"
+  },
+  {
+   "args": {
+    "ask": 0.4,
+    "fee_rate": 0.07
+   },
+   "expected": 0.4168,
+   "fn": "all_in_cost"
+  },
+  {
+   "args": {
+    "cost": 0.4168,
+    "fee_rate": 0.07
+   },
+   "expected": 0.4,
+   "fn": "ask_of_cost"
+  },
+  {
+   "args": {
+    "fee": 0.02,
+    "p_true": 0.55,
+    "price": 0.4
+   },
+   "expected": 0.13,
+   "fn": "ev"
+  },
+  {
+   "args": {
+    "fee": 0.02,
+    "price": 0.4
+   },
+   "expected": 0.42,
+   "fn": "breakeven_probability"
+  },
+  {
+   "args": {
+    "cost": 0.5,
+    "days": 90.0,
+    "ev": 0.1
+   },
+   "expected": 1.0947101750795585,
+   "fn": "annualized_return"
+  },
+  {
+   "args": {
+    "fees": 0.02,
+    "no_ask": 0.5,
+    "yes_ask": 0.45
+   },
+   "expected": 0.03,
+   "fn": "arbitrage"
+  },
+  {
+   "args": {
+    "cost": 0.4,
+    "p_true": 0.6,
+    "payout": 1.0
+   },
+   "expected": 0.3333333333333333,
+   "fn": "kelly_fraction"
+  },
+  {
+   "args": {
+    "forecasts": [
+     0.8,
+     0.3
+    ],
+    "outcomes": [
+     1.0,
+     0.0
+    ]
+   },
+   "expected": 0.06499999999999999,
+   "fn": "brier"
+  },
+  {
+   "args": {
+    "forecasts": [
+     0.8,
+     0.3
+    ],
+    "outcomes": [
+     1.0,
+     0.0
+    ]
+   },
+   "expected": 0.2899092476264711,
+   "fn": "log_loss"
+  }
+ ],
+ "generator": "tests/golden/gen/generate.py",
+ "reference": {
+  "closed form": "closed form"
+ },
+ "tolerance": {
+  "additive": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "all_in_cost": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "american_to_prob": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "annualized_return": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "arbitrage": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "ask_of_cost": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "binary": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "binary_raw": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "breakeven_probability": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "brier": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "capped": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "continuous": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "decimal_to_prob": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "ev": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "fee": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "fractional": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "fractional_to_prob": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "held_side_price": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "implied_probability": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "kalshi": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "kelly_fraction": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "log_loss": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "multiplicative": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "overround": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "polymarket": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "power": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  },
+  "shin": {
+   "atol": 2e-10,
+   "rtol": 2e-10
+  }
+ }
+}

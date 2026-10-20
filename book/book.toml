@@ -1,0 +1,10 @@
+[book]
+title = "finance-rs Guide"
+authors = ["finance-rs maintainers"]
+language = "en"
+src = "src"
+description = "A practical guide to the finance-rs Rust library"
+
+[build]
+build-dir = "build"
+

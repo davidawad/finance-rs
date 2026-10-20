@@ -1,0 +1,36 @@
+---
+source: crates/finance-rs/tests/schedule_snapshots.rs
+expression: "format!(\"{schedule:#?}\")"
+---
+Schedule {
+    principal: 1000.0,
+    rows: [
+        Row {
+            period: 1,
+            payment: 340.0221114814678,
+            interest: 10.0,
+            principal: 330.0221114814678,
+            extra: 0.0,
+            pmi: 0.0,
+            balance: 669.9778885185322,
+        },
+        Row {
+            period: 2,
+            payment: 340.0221114814678,
+            interest: 6.699778885185322,
+            principal: 333.3223325962825,
+            extra: 0.0,
+            pmi: 0.0,
+            balance: 336.6555559222497,
+        },
+        Row {
+            period: 3,
+            payment: 340.02211148147217,
+            interest: 3.3665555592224967,
+            principal: 336.6555559222497,
+            extra: 0.0,
+            pmi: 0.0,
+            balance: 0.0,
+        },
+    ],
+}

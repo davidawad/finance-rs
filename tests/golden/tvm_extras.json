@@ -1,0 +1,3437 @@
+{
+ "cases": [
+  {
+   "args": {
+    "end": 1,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -937.5,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -68.27827118097679,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -11215.342881128317,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -853.996373043403,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -10201.332884494608,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -11135.232130750845,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -934.107123420877,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": -11052.339583871804,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 360,
+    "when": "end"
+   },
+   "expected": -7.487183160156228,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 360,
+    "when": "end"
+   },
+   "expected": -998.2910880208207,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 360,
+    "when": "begin"
+   },
+   "expected": -7.431447305365983,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -237080.1776251526,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -124999.99999999901,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 360,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -234384.79168749638,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 361,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 361,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 361,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 322,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 214,
+    "when": "end"
+   },
+   "expected": -53385.94787323225,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 322,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 214,
+    "when": "end"
+   },
+   "expected": -56243.883685494206,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 322,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 214,
+    "when": "begin"
+   },
+   "expected": -52988.53386921315,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 164,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 47,
+    "when": "end"
+   },
+   "expected": -100516.26408776974,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 164,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 47,
+    "when": "end"
+   },
+   "expected": -18165.571911585525,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 164,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 47,
+    "when": "begin"
+   },
+   "expected": -99768.0040573397,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 328,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 314,
+    "when": "end"
+   },
+   "expected": -3891.8416207561404,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 328,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 314,
+    "when": "end"
+   },
+   "expected": -11194.832446958513,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 328,
+    "nper": 360,
+    "pv": 125000.0,
+    "rate": 0.0075,
+    "start": 314,
+    "when": "begin"
+   },
+   "expected": -3862.870095043315,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -100.00000000000003,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -286.6560305885654,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -1103.8090221696332,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -3536.063344893152,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -998.8149474324707,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -885.7123724423648,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -3754.15999462042,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": -881.3058432262337,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 60,
+    "when": "end"
+   },
+   "expected": -1.9236618437241804,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 60,
+    "when": "end"
+   },
+   "expected": -384.73236874484127,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 60,
+    "when": "begin"
+   },
+   "expected": -1.9140913867902294,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -3199.3618353135,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -20000.000000000426,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 60,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -3083.9421246900497,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 61,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 61,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 61,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 49,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 46,
+    "when": "end"
+   },
+   "expected": -100.68603421668455,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 49,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 46,
+    "when": "end"
+   },
+   "expected": -1445.9380881375773,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 49,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 46,
+    "when": "begin"
+   },
+   "expected": -100.18510867331796,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 59,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 32,
+    "when": "end"
+   },
+   "expected": -797.2849828012894,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 59,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 32,
+    "when": "end"
+   },
+   "expected": -10029.08387367854,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 59,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 32,
+    "when": "begin"
+   },
+   "expected": -793.3183908470545,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 42,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 41,
+    "when": "end"
+   },
+   "expected": -71.6662610337419,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 42,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 41,
+    "when": "end"
+   },
+   "expected": -701.6458001433889,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 42,
+    "nper": 60,
+    "pv": 20000.0,
+    "rate": 0.005,
+    "start": 41,
+    "when": "begin"
+   },
+   "expected": -71.30971247138498,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -100.00000000000001,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -62.74539488251152,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 10,
+    "when": "end"
+   },
+   "expected": -14.795035898410175,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 10,
+    "when": "end"
+   },
+   "expected": -147.95035898410137,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 10,
+    "when": "begin"
+   },
+   "expected": -13.45003263491834,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -627.4539488251163,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -999.9999999999991,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 10,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -479.50358984101473,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 11,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 11,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 11,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 3,
+    "when": "end"
+   },
+   "expected": -418.9334524149573,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 3,
+    "when": "end"
+   },
+   "expected": -720.2843117626235,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 3,
+    "when": "begin"
+   },
+   "expected": -380.84859310450656,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 6,
+    "when": "end"
+   },
+   "expected": -181.99884881136958,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 6,
+    "when": "end"
+   },
+   "expected": -468.9827307186765,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 6,
+    "when": "begin"
+   },
+   "expected": -165.4534989194269,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 6,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": -132.57317120530428,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 6,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": -192.9176185597188,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 6,
+    "nper": 10,
+    "pv": 1000.0,
+    "rate": 0.1,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": -120.52106473209479,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -208.33333333333334,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -2500.0,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -2500.0,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 24,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 24,
+    "when": "end"
+   },
+   "expected": -208.33333333333334,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 24,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -5000.0,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 25,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 25,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 25,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 16,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 16,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": -3125.0000000000005,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 16,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 20,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 20,
+    "when": "end"
+   },
+   "expected": -416.6666666666667,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 20,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 17,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 17,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -3541.6666666666674,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 17,
+    "nper": 24,
+    "pv": 5000.0,
+    "rate": 0.0,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 20.00000000000003,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -287.6200170770468,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 202.28612802182124,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -3413.726332946382,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 182.65143088358843,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": 121.25193857505658,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -3332.692143499617,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": 121.49492843192041,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 36,
+    "when": "end"
+   },
+   "expected": 0.536312659473063,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 36,
+    "when": "end"
+   },
+   "expected": -268.1563297365198,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 36,
+    "when": "begin"
+   },
+   "expected": 0.5373874343417464,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 365.6793852263096,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -9999.99999999999,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 36,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 346.37212948528014,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 37,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 37,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 37,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 3,
+    "when": "end"
+   },
+   "expected": 261.29129325339846,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 3,
+    "when": "end"
+   },
+   "expected": -5346.071617717287,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 3,
+    "when": "begin"
+   },
+   "expected": 261.81492309959765,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 35,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 24,
+    "when": "end"
+   },
+   "expected": 48.66152208344773,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 35,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 24,
+    "when": "end"
+   },
+   "expected": -3260.1017270080083,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 35,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 24,
+    "when": "begin"
+   },
+   "expected": 48.759040163775275,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": 169.06229736527985,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": -5521.462638906214,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 36,
+    "pv": 10000.0,
+    "rate": -0.002,
+    "start": 12,
+    "when": "begin"
+   },
+   "expected": 169.40109956440867,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 374.99999999999994,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 258.3788687512443,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 4368.850411509285,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 3231.6960135056456,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 3964.1195151456914,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": 4065.695034266634,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": 3534.8513907482966,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": 4035.4293144085696,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 120,
+    "when": "end"
+   },
+   "expected": 4.714979171845515,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 120,
+    "when": "end"
+   },
+   "expected": 628.6638895793989,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 120,
+    "when": "begin"
+   },
+   "expected": 4.679880071310685,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 26005.464250149722,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": 49999.99999999961,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 120,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 25439.666749528245,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 121,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 121,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 121,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 100,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 44,
+    "when": "end"
+   },
+   "expected": 10878.986101929246,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 100,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 44,
+    "when": "end"
+   },
+   "expected": 25223.609416891682,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 100,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 44,
+    "when": "begin"
+   },
+   "expected": 10798.001093726301,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": 2929.003027305482,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": 2138.027922704471,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 9,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": 2907.199034546384,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 50,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": 12048.359267373544,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 50,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": 12653.416613924981,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 50,
+    "nper": 120,
+    "pv": -50000.0,
+    "rate": 0.0075,
+    "start": 12,
+    "when": "begin"
+   },
+   "expected": 11958.669248013444,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -250000.00000000003,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -309.86860857882243,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 1,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": 0.0,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -2986921.170841377,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -16797.252461568765,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 12,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -2189536.936673102,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -2759286.2294127205,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 13,
+    "when": "end"
+   },
+   "expected": -244432.19389022508,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 24,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 13,
+    "when": "begin"
+   },
+   "expected": -2207428.983530177,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 30,
+    "when": "end"
+   },
+   "expected": -50061.973721715774,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 30,
+    "when": "end"
+   },
+   "expected": -200247.89488686304,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 30,
+    "when": "begin"
+   },
+   "expected": -40049.57897737262,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -6509296.058257366,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "end"
+   },
+   "expected": -1000000.0,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 30,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 1,
+    "when": "begin"
+   },
+   "expected": -5007436.846605894,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 0,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 3,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 0,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 5,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 4,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 5,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 2,
+    "when": "end"
+   },
+   "expected": null,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 31,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 2,
+    "when": "begin"
+   },
+   "expected": null,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 27,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 14,
+    "when": "end"
+   },
+   "expected": -3014249.458229589,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 27,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 14,
+    "when": "end"
+   },
+   "expected": -490088.7022905143,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 27,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 14,
+    "when": "begin"
+   },
+   "expected": -2411399.5665836716,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 13,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": -492503.21011400985,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 13,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 12,
+    "when": "end"
+   },
+   "expected": -8116.527103147824,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 13,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 12,
+    "when": "begin"
+   },
+   "expected": -394002.5680912079,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 10,
+    "when": "end"
+   },
+   "expected": -2878569.140031151,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 10,
+    "when": "end"
+   },
+   "expected": -125149.28327179524,
+   "fn": "cumprinc"
+  },
+  {
+   "args": {
+    "end": 21,
+    "nper": 30,
+    "pv": 1000000.0,
+    "rate": 0.25,
+    "start": 10,
+    "when": "begin"
+   },
+   "expected": -2302855.3120249207,
+   "fn": "cumipmt"
+  },
+  {
+   "args": {
+    "nper": 22.0,
+    "rate": 0.08,
+    "values": [
+     -239.56,
+     38.8,
+     85.97,
+     -211.97,
+     -73.61,
+     -2.28,
+     89.12,
+     19.93,
+     -209.87,
+     269.21,
+     -79.54,
+     -156.8,
+     -217.16,
+     -0.49,
+     -47.9,
+     292.74,
+     13.34
+    ]
+   },
+   "expected": -1889.7924156270667,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 15.0,
+    "rate": -0.05,
+    "values": [
+     -192.63,
+     -152.48,
+     75.25,
+     -90.02,
+     -1.15,
+     226.0,
+     202.3,
+     24.22,
+     -122.42,
+     5.47,
+     93.88,
+     123.07
+    ]
+   },
+   "expected": 206.34060236102115,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 26.0,
+    "rate": 0.15,
+    "values": [
+     45.01,
+     618.1,
+     47.18,
+     45.9,
+     -52.01,
+     188.84,
+     -82.85,
+     -38.79,
+     -85.24,
+     345.78,
+     569.59,
+     -269.58,
+     98.88,
+     148.04,
+     287.89,
+     207.27,
+     231.9,
+     12.59,
+     91.49,
+     50.13,
+     67.03,
+     -160.37,
+     -173.3,
+     130.51
+    ]
+   },
+   "expected": 31396.418994437772,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 34.0,
+    "rate": 0.03,
+    "values": [
+     53.01,
+     46.5,
+     115.61,
+     584.7,
+     95.2,
+     115.52,
+     115.07,
+     59.43,
+     46.97,
+     63.9,
+     -52.14,
+     627.04,
+     -128.8,
+     171.43,
+     32.78,
+     -362.41,
+     -91.72,
+     212.51,
+     85.02,
+     -39.08,
+     128.85,
+     -55.2,
+     -42.42,
+     -186.82
+    ]
+   },
+   "expected": 3741.8327983984136,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 30.0,
+    "rate": -0.05,
+    "values": [
+     10.48,
+     358.87,
+     -309.87,
+     -59.38,
+     339.24,
+     9.02,
+     60.04,
+     246.52,
+     106.31,
+     -175.95,
+     -194.23,
+     -18.03,
+     -138.13,
+     380.3,
+     -97.63,
+     23.92,
+     240.78,
+     -108.99,
+     102.19,
+     272.23,
+     311.15,
+     -380.1,
+     375.7,
+     191.02
+    ]
+   },
+   "expected": 790.7220573076218,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 30.0,
+    "rate": 0.03,
+    "values": [
+     196.87,
+     286.67,
+     -264.02,
+     -52.79,
+     481.73,
+     35.27,
+     -32.01,
+     34.77,
+     201.29,
+     281.43,
+     275.01,
+     100.83,
+     -449.54,
+     28.62,
+     140.15,
+     -200.46,
+     51.39,
+     185.41,
+     -135.72,
+     135.69,
+     76.29,
+     328.11,
+     -107.88
+    ]
+   },
+   "expected": 2974.7767295404806,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 25.0,
+    "rate": 0.15,
+    "values": [
+     -320.28,
+     -109.59,
+     193.96,
+     219.67,
+     369.23,
+     -321.73,
+     155.44,
+     -98.01,
+     -255.32,
+     -193.55,
+     56.92,
+     122.44,
+     83.73,
+     69.95
+    ]
+   },
+   "expected": -3264.6391269245005,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 7.0,
+    "rate": 0.08,
+    "values": [
+     176.14,
+     -74.06
+    ]
+   },
+   "expected": 170.69360587554823,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 21.0,
+    "rate": 0.0,
+    "values": [
+     134.54,
+     -78.76,
+     -195.33,
+     184.12,
+     107.36,
+     107.34,
+     108.42,
+     7.39,
+     -431.9,
+     26.14,
+     -137.75,
+     176.45,
+     272.59,
+     87.12,
+     -58.82,
+     195.98,
+     468.65,
+     -204.72,
+     -55.93,
+     -221.36,
+     59.4
+    ]
+   },
+   "expected": 550.93,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 21.0,
+    "rate": 0.15,
+    "values": [
+     15.86,
+     245.39,
+     -279.44,
+     313.09,
+     8.06,
+     -48.87,
+     479.36,
+     -22.07,
+     -76.38,
+     -13.95,
+     106.55,
+     -290.6
+    ]
+   },
+   "expected": 5531.943997175722,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 4.0,
+    "rate": 0.15,
+    "values": [
+     119.2,
+     636.47,
+     -76.24
+    ]
+   },
+   "expected": 935.3438749999997,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 27.0,
+    "rate": 0.15,
+    "values": [
+     -81.94,
+     0.7,
+     -289.29,
+     -37.26,
+     31.79,
+     285.91,
+     -20.12,
+     -310.62,
+     -132.05,
+     317.36,
+     145.39,
+     -67.98,
+     -160.29,
+     -114.17,
+     27.05,
+     23.63,
+     -139.56,
+     125.81,
+     189.23,
+     -368.73,
+     -113.01,
+     -423.07,
+     -14.07,
+     284.02
+    ]
+   },
+   "expected": -11190.579408585127,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 11.0,
+    "rate": -0.05,
+    "values": [
+     204.3
+    ]
+   },
+   "expected": 122.32195668640077,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 18.0,
+    "rate": -0.05,
+    "values": [
+     -12.63,
+     -228.82,
+     40.81,
+     159.41,
+     27.15,
+     238.87,
+     -168.57
+    ]
+   },
+   "expected": 37.78695951488067,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 24.0,
+    "rate": -0.05,
+    "values": [
+     -40.67,
+     139.35,
+     -176.42,
+     138.74,
+     290.51,
+     -103.85,
+     -12.23,
+     92.47,
+     165.72,
+     169.43,
+     276.62,
+     -231.16,
+     272.96,
+     261.3,
+     187.36,
+     157.52,
+     -154.0,
+     -251.13,
+     -181.65,
+     197.31,
+     217.09
+    ]
+   },
+   "expected": 751.1203241873238,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 10.0,
+    "rate": 0.08,
+    "values": [
+     -587.82
+    ]
+   },
+   "expected": -1175.0548999045282,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 6.0,
+    "rate": 0.08,
+    "values": [
+     122.0,
+     -66.78,
+     330.53,
+     -107.75,
+     123.14
+    ]
+   },
+   "expected": 512.0887799808,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 10.0,
+    "rate": 0.03,
+    "values": [
+     -244.97,
+     -66.38,
+     -326.33,
+     -217.42,
+     -68.25
+    ]
+   },
+   "expected": -1143.7945292315683,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 31.0,
+    "rate": 0.0,
+    "values": [
+     241.74,
+     -3.04,
+     46.11,
+     -255.89,
+     61.0,
+     209.58,
+     33.04,
+     173.76,
+     -395.25,
+     260.18,
+     397.26,
+     -113.97,
+     18.25,
+     255.11,
+     188.02,
+     107.61,
+     112.63,
+     145.62,
+     336.75,
+     -59.55,
+     -205.34,
+     -38.5,
+     -505.11
+    ]
+   },
+   "expected": 1010.0099999999999,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 17.0,
+    "rate": 0.15,
+    "values": [
+     -62.58,
+     -39.27,
+     259.25,
+     375.67,
+     409.65,
+     -186.97,
+     171.12,
+     168.73,
+     -102.27,
+     272.12,
+     -382.8,
+     10.69,
+     -110.86,
+     224.24
+    ]
+   },
+   "expected": 5542.577829647038,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 29.0,
+    "rate": 0.15,
+    "values": [
+     -120.94,
+     -66.56,
+     139.84,
+     123.78,
+     123.09,
+     295.33,
+     -225.32,
+     72.16,
+     158.53,
+     171.32,
+     -115.92,
+     171.34,
+     16.4,
+     185.09,
+     385.73
+    ]
+   },
+   "expected": 17602.70268378943,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 9.0,
+    "rate": 0.03,
+    "values": [
+     494.08
+    ]
+   },
+   "expected": 625.8857618119935,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 14.0,
+    "rate": 0.0,
+    "values": [
+     -227.9,
+     -3.06,
+     -405.57,
+     71.08,
+     162.79,
+     -405.2,
+     87.32
+    ]
+   },
+   "expected": -720.54,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 10.0,
+    "rate": 0.08,
+    "values": [
+     -29.04,
+     196.47,
+     105.31,
+     373.65,
+     279.71
+    ]
+   },
+   "expected": 1490.005344917894,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 16.0,
+    "rate": 0.15,
+    "values": [
+     -246.45,
+     -83.81,
+     89.39,
+     75.39,
+     -49.94,
+     108.68,
+     -65.63,
+     -149.68,
+     93.36,
+     -17.5
+    ]
+   },
+   "expected": -1918.6017797738045,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 4.0,
+    "rate": 0.15,
+    "values": [
+     -99.5,
+     -47.21
+    ]
+   },
+   "expected": -213.76228749999996,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 10.0,
+    "rate": -0.05,
+    "values": [
+     -145.96,
+     -545.26,
+     56.67,
+     -160.99,
+     -95.95,
+     60.9
+    ]
+   },
+   "expected": -557.1363474382889,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 22.0,
+    "rate": 0.0,
+    "values": [
+     306.62,
+     89.53,
+     326.24,
+     317.94,
+     418.66,
+     107.1,
+     -57.57,
+     204.21,
+     143.82,
+     53.01,
+     -43.73,
+     246.02
+    ]
+   },
+   "expected": 2111.85,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 16.0,
+    "rate": -0.05,
+    "values": [
+     -39.19,
+     17.91,
+     -44.61,
+     105.34,
+     -222.56,
+     -38.35,
+     116.2
+    ]
+   },
+   "expected": -51.71951188155925,
+   "fn": "nfv"
+  },
+  {
+   "args": {
+    "nper": 11.0,
+    "rate": 0.0,
+    "values": [
+     246.09
+    ]
+   },
+   "expected": 246.09,
+   "fn": "nfv"
+  }
+ ],
+ "generator": "tests/golden/gen/generate.py",
+ "reference": {
+  "pyxirr": "0.10.8"
+ },
+ "tolerance": {
+  "cumipmt": {
+   "atol": 1e-09,
+   "rtol": 1e-11
+  },
+  "cumprinc": {
+   "atol": 1e-09,
+   "rtol": 1e-11
+  },
+  "nfv": {
+   "atol": 1e-09,
+   "rtol": 1e-11
+  }
+ }
+}
