@@ -11,7 +11,7 @@ The rendered values use synthetic inputs. The example computes a monthly loan pa
 Add the crate to your project:
 
 ```sh
-cargo add finance-rs
+cargo add finance-rs --git https://github.com/davidawad/finance-rs
 ```
 
 The crate supports Rust 1.82 and newer.
@@ -34,4 +34,4 @@ Reproduce the screenshot with `./docs/showcase/make-screenshots.sh`. See [the sh
 
 ## License
 
-GPL-3.0-or-later. This license choice follows David's decision for his published crates; confirm before publication. See [LICENSE](LICENSE).
+GPL-3.0-or-later. See [LICENSE](LICENSE).
